@@ -1,0 +1,1 @@
+{"cross_model_test": [{"setting": "in-domain (HC3, ChatGPT, reddit_eli5)", "accuracy": 0.9863945578231292, "precision": 0.9753617520531873, "recall": 0.9979991996798719, "f1": 0.9865506329113924}, {"setting": "cross-model+domain (DAIGT, Claude, essays)", "accuracy": 0.75525, "precision": 0.8036882807852469, "recall": 0.6755, "f1": 0.7340396631350177}]}
