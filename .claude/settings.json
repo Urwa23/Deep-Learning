@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.venv/Scripts/python.exe -m jupyter kernelspec list)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(./.venv/Scripts/python.exe -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=dl-venv notebooks/01_data_exploration.ipynb)",
+      "Bash(./.venv/Scripts/python.exe \"/c/Users/HP/AppData/Local/Temp/claude/d--Documents-Studies-DeepLearning/cde1479a-8bea-4ec9-94e5-b18cb02c9222/scratchpad/validate_nb.py\" notebooks/02_data_prep.ipynb)",
+      "Bash(./.venv/Scripts/python.exe -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.kernel_name=dl-venv notebooks/02_data_prep.ipynb)",
+      "WebSearch",
+      "Bash(./.venv/Scripts/python.exe scripts/prepare_data.py)"
+    ]
+  }
+}
